@@ -292,3 +292,13 @@
 /obj/item/tape/random/Initialize()
 	. = ..()
 	icon_state = "tape_[pick("white", "blue", "red", "yellow", "purple")]"
+
+/obj/item/tape/ruin/example/Initialize()
+	. = ..()
+	storedinfo = list(
+	"\[00:00\] Recording Started",
+	"\[00:01\] Jon Arbuckle says \"Now where could my pipe be?\"",
+	"\[00:20\] Jon Arbuckle yells \"GARFIELD!!\"",
+	"\[00:21\] The audience bursts into a laughing frenzy"
+	)
+	timestamp = list(1,2,21,22) //The seconds after starting+1 that each message plays at
