@@ -297,8 +297,9 @@
 	. = ..()
 	storedinfo = list(
 	"\[00:00\] Recording Started",
-	"\[00:01\] Jon Arbuckle says \"Now where could my pipe be?\"",
-	"\[00:20\] Jon Arbuckle yells \"GARFIELD!!\"",
-	"\[00:21\] The audience bursts into a laughing frenzy"
+	"\[00:01\] Jon Arbuckle says \"Now where could my pipe be?\".",
+	"\[00:20\] Jon Arbuckle yells \"GARFIELD!!\".",
+	"\[00:21\] The audience bursts into a laughing frenzy.",
+	"\[00:22\] Recording stopped."
 	)
-	timestamp = list(1,2,21,22) //The seconds after starting+1 that each message plays at
+	timestamp = list(1,2,21,22,23) //The seconds after starting+1 that each message plays at
